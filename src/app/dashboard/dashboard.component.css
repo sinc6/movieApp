@@ -1,0 +1,30 @@
+.card-img {
+  border-radius: 8px; /* Resme yuvarlak kenarlar ekler */
+  object-fit: cover; /* Resmin içeriği kapsama alanına sığdırır */
+  height: 200px; /* Resmin yüksekliğini belirler */
+}
+
+.card-body {
+  padding: 1.5rem; /* Card body alanındaki boşluğu arttırır */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333; /* Başlık rengini koyulaştırır */
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666; /* Açık gri metin rengi */
+}
+
+.btn-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}

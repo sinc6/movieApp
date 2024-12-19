@@ -1,0 +1,33 @@
+.notification-container {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+  width: 250px; /* Mesajın genişliği */
+  margin-bottom: 10px;
+}
+
+.notification-card {
+  background-color: #98cff2;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.5s ease-in-out;
+  font-size: 0.9rem; /* Daha küçük yazı tipi */
+}
+
+.message-text {
+  margin: 0;
+}
+
+@keyframes slideIn {
+  from {
+    bottom: -80px;
+    opacity: 0;
+  }
+  to {
+    bottom: 10px;
+    opacity: 1;
+  }
+}

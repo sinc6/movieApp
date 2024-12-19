@@ -1,0 +1,44 @@
+/* Modern ve şık navbar görünümü */
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar brand (logo) yazısına stil */
+.navbar-brand {
+  font-family: "Arial", sans-serif;
+  color: #fff !important;
+  text-transform: uppercase;
+}
+
+/* Navbar menüsü linklerinin hover efekti */
+.navbar-nav .nav-link {
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8b400; /* Hover rengi */
+  text-decoration: none;
+}
+
+/* Navbar için gradient arka plan */
+.bg-gradient-primary {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+/* Daha uyumlu görünüm için navbar linkleri */
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+
+/* Navbar'ın mobil uyumlu olması */
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-brand {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}

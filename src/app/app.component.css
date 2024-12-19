@@ -1,0 +1,9 @@
+/* Navbar'ın tam genişlikte olmasını sağlamak */
+.navbar {
+  width: 100%;
+}
+
+/* logging bileşenini hizalamak */
+.logging {
+  text-align: center;
+}
